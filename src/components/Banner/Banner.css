@@ -12,7 +12,7 @@
     position: absolute;
     left: 0;
     padding: 5%;
-    height: 100vh;
+    height: 100%;
 }
 
 .bannerLogo{
@@ -70,3 +70,37 @@
     color: #5D5D5D;
     text-align: center;
 }
+
+
+@media screen and (max-width: 650px) {
+
+    .bannerContainer{
+        width: 100%;
+        height: 100vh;
+        background-image: url(bannerMob.png);
+        margin-bottom: 100vh;
+    }
+    .bannerContent{
+        width: 100%;
+    }
+
+    .bannerLogo{
+        width: 107px;
+        height: 36px;
+    }
+    .bannerHeading{
+        font: normal normal 600 22px/28px "AktifoSemiBold";
+    }
+    .bannerPara{
+        font: normal normal 300 16px/20px "AktifoLight";
+    }
+
+    .featureCircle{
+        width: 39px;
+        height: 38px;
+    }
+    .featureDetails{
+        font: normal normal normal 9px/11px "AktifoBook";
+    }
+
+  }

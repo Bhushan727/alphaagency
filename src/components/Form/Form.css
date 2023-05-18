@@ -1,8 +1,8 @@
 
 .formContainer{
     position: absolute;
-    width: 38%;
-    height: 110vh;
+    width: 42%;
+    height: 120vh;
     z-index: 5;
     top: 10vh;
     right: 6vw;
@@ -39,6 +39,8 @@
 .inputUnit{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    margin-right: 10px;
 }
 .inputUnit>label{
     font: normal normal normal 20px/24px "AktifoBook";
@@ -46,7 +48,7 @@
     margin-bottom: 8px;
 }
 .inputUnit>input{
-    width: 283px;
+    width: 100%;
     height: 46px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 0.25px solid #62777D;
@@ -64,8 +66,11 @@
     padding: 5%;
     font-size: 17px;
 }
+.inputUnitTwo{
+    width: 100%;
+}
 .inputUnitTwo>select{
-    width: 616px;
+    width: 100%;
     height: 40px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 0.25px solid #62777D;
@@ -79,21 +84,23 @@
     margin-bottom: 8px;
 }
 .inputUnitTwo>input{
-    width: 616px;
+    width: 90%;
     height: 46px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 0.25px solid #62777D;
     border-radius: 8px;
     margin-right: 30px;
 }
-
+.inputUnitThree{
+    width: 100%;
+}
 .inputUnitThree>label{
     font: normal normal normal 20px/24px "AktifoBook";
     color: #292929;
     margin-bottom: 8px;
 }
 .inputUnitThree>input{
-    width: 616px;
+    width: 100%;
     height: 106px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 0.25px solid #62777D;
@@ -133,4 +140,14 @@
     right: 35%;
     font-size: 22px;
     color: #ffffff;
+}
+
+
+@media screen and (max-width: 650px) {
+
+    .formContainer{
+        top: 80vh;
+        width: 90%;
+    }
+
 }
