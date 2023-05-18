@@ -1,7 +1,7 @@
 
 .bannerContainer{
     width: 100%;
-    min-height: 100vh;
+    min-height: 110vh;
     background:url('banner-img.png') no-repeat center center ;
     background-size:cover;
     

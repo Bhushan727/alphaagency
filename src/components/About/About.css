@@ -75,3 +75,30 @@
     position: relative;
     margin-left: 18vw;
 }
+
+
+
+@media screen and (max-width: 650px) {
+
+    .aboutContainer{
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .imgContainer{
+        width: 100%;
+        height: 45vh;
+        background-image: url('green-mob.png');
+    }
+    .aboutContentContainer{
+        width: 100%;
+        height: auto;
+    }
+    .aboutHeader{
+        font: normal normal 600 22px/28px "AktifoSemiBold";
+    }
+    .aboutParaContainer{
+        width: 100%;
+        flex-direction: column;
+    }
+
+}

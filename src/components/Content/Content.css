@@ -51,3 +51,25 @@
 .fa-arrow-right{
     margin-left: 20px;
 }
+
+
+@media screen and (max-width: 650px) {
+    .contentLeft{
+        width: 100%;
+    }
+    .content-head{
+        font: normal normal 600 22px/28px "AktifoBold";
+    }
+    .content-para{
+        font: normal normal 300 14px/20px "AktifoLight";
+    }
+    .content-benefits{
+        font: normal normal medium 16px/20px "AktifoLight";
+    }
+    .content-btn{
+        width: 168px;
+    height: 34px;
+    font: normal normal 600 14px/17px "AktifoLight";
+    }
+
+}
