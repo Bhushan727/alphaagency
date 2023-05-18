@@ -7,6 +7,7 @@ import Form from './components/Form/Form';
 import About from './components/About/About';
 import { useState } from 'react';
 import Popup from './components/Popup/Popup';
+import Footer from './components/Footer/Footer';
 
 function App() {
 
@@ -31,7 +32,12 @@ function App() {
       { pop && <Popup name={name} setPop={setPop} /> }
       <Content scroll={handleClickScroll}/>
       <About scroll={handleClickScroll}/>
-
+      <Footer />
+      <div className="copyRit">
+        <p className="copyPara">
+          © 2023 Avery Dennison Label Packaging Material. All rights reserved.
+        </p>
+      </div>
     </div>
   );
 }

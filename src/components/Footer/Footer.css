@@ -1,0 +1,30 @@
+
+.footerContainer{
+    width: 100%;
+    min-height: 30vh;
+    background-color: #1A1A1A;
+    display: flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.fOneHead{
+    font-family: "AktifoLight";
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+.footerOne>img{
+    width: 209px;
+    height: 71px;
+}
+
+.fTwoPara{
+    font: normal normal 300 24px/29px "AktifoLight";
+    margin-bottom: 10px;
+    color: #FFFFFF;
+}
+
+.fThreePara{
+    color: #727272;
+    font: normal normal 300 13px/24px "AktifoLight";
+}

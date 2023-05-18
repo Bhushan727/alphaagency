@@ -1,0 +1,9 @@
+
+.copyRit{
+    min-height: 7vh;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font: normal normal 300 16px/19px "AktifoLight";
+}
