@@ -149,5 +149,41 @@
         top: 80vh;
         width: 90%;
     }
+    .inputContainer{
+        flex-direction: column;
+    }
+
+    .inputUnit>label{
+        font: normal normal 300 10px/12px "AktifoLight";
+    }
+    .inpuunit>input{
+        width: 80%;
+height: 18px;
+font-size: 10px;
+    }
+    .inputUnit>select{
+        width: 80%;
+        height: 18px;
+    }
+    .inputUnitTwo{
+        font: normal normal 300 10px/12px "AktifoLight";
+    }
+    .inputUnitTwo>label{
+        font: normal normal 300 10px/12px "AktifoLight";
+    }
+    .inputUnitThree>label{
+        font: normal normal 300 10px/12px "AktifoLight";
+    }
+    .checkLabel{
+        font: normal normal 300 10px/12px "AktifoLight";
+    }
+    .submit-btn{
+       font-size: 15px;
+    }
+    .inputBtnContainer>input{
+        width: 137px;
+        height: 34px;
+        font: normal normal 600 14px/17px "AktifoSemiBold";
+    }
 
 }

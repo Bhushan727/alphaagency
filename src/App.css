@@ -7,3 +7,9 @@
     align-items: center;
     font: normal normal 300 16px/19px "AktifoLight";
 }
+
+@media screen and (max-width: 650px) {
+    .copyRit{
+        font: normal normal 300 8px/9px "AktifoLight";
+    }
+}

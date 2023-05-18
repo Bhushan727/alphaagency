@@ -28,3 +28,24 @@
     color: #727272;
     font: normal normal 300 13px/24px "AktifoLight";
 }
+
+@media screen and (max-width: 650px) {
+
+    .footerContainer{
+        flex-direction: column;
+    }
+    .footerOne>img{
+        width: 156px;
+        height: 53px;
+    }
+    .fOneHead{
+        display: none;
+    }
+    .fTwoPara{
+        font: normal normal 300 11px/13px "AktifoLight";
+    }
+    .fThreePara{
+        font: normal normal 300 8px/14px "AktifoLight";
+    }
+
+}
