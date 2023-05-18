@@ -1,0 +1,39 @@
+
+.popContainer{
+    position: absolute;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 6;
+    background-color: black;
+    opacity: 0.98;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popCard{
+    z-index: 10;
+    width: 40%;
+    height: 50vh;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 13px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.popName{
+    margin: 50px;
+}
+.popBtn{
+    padding: 10px 50px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    background-color: powderblue;
+    cursor: pointer;
+}

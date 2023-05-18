@@ -1,0 +1,136 @@
+
+.formContainer{
+    position: absolute;
+    width: 38%;
+    height: 110vh;
+    z-index: 5;
+    top: 10vh;
+    right: 6vw;
+    background-color: #ffffff;
+    border: 1px solid transparent;
+    box-shadow: 0px 14px 27px #00000017;
+    border-radius: 13px;
+}
+
+.form{
+    width: 100%;
+    height: 100%;
+    padding: 10% 5% 10% 10%;
+}
+
+.formHead{
+    font: normal normal 600 34px/41px "AktifoSemiBold";
+    color: #000000;
+    margin-bottom: 10px;
+}
+.formHeadPara{
+    font: normal normal normal 20px/24px "AktifoBook";
+    color: #292929;
+    margin-bottom: 25px;
+}
+
+.inputContainer{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    /* border: 1px solid blue; */
+}
+.inputUnit{
+    display: flex;
+    flex-direction: column;
+}
+.inputUnit>label{
+    font: normal normal normal 20px/24px "AktifoBook";
+    color: #292929;
+    margin-bottom: 8px;
+}
+.inputUnit>input{
+    width: 283px;
+    height: 46px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.25px solid #62777D;
+    border-radius: 8px;
+    margin-right: 30px;
+    padding: 5%;
+    font-size: 17px;
+}
+.inputUnit>select{
+    width: 283px;
+    height: 46px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.25px solid #62777D;
+    border-radius: 8px;
+    padding: 5%;
+    font-size: 17px;
+}
+.inputUnitTwo>select{
+    width: 616px;
+    height: 40px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.25px solid #62777D;
+    border-radius: 8px;
+    padding: 4%;
+    font-size: 17px;
+}
+.inputUnitTwo>label{
+    font: normal normal normal 20px/24px "AktifoBook";
+    color: #292929;
+    margin-bottom: 8px;
+}
+.inputUnitTwo>input{
+    width: 616px;
+    height: 46px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.25px solid #62777D;
+    border-radius: 8px;
+    margin-right: 30px;
+}
+
+.inputUnitThree>label{
+    font: normal normal normal 20px/24px "AktifoBook";
+    color: #292929;
+    margin-bottom: 8px;
+}
+.inputUnitThree>input{
+    width: 616px;
+    height: 106px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 0.25px solid #62777D;
+    border-radius: 8px;
+}
+
+.check{
+    width: 24px;
+    height: 24px;
+    border: 0.5px solid #5D5D5D;
+    border-radius: 4px;
+    margin-right: 15px;
+}
+.checkLabel{
+    font: normal normal 300 20px/24px "AktifoLight";
+    color: #292929;
+}
+
+.inputBtnContainer{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    position: relative;
+}
+.inputBtnContainer>input{
+    width: 285px;
+    height: 75px;
+    background: #F26621 0% 0% no-repeat padding-box;
+    border-radius: 9px;
+    font: normal normal 600 30px/36px "AktifoSemiBold";
+    color: #FFFFFF;
+}
+.submit-btn{
+    position: absolute;
+    right: 35%;
+    font-size: 22px;
+    color: #ffffff;
+}

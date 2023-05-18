@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'AktifoBold';
+    src: local('AktifoBold'),
+         url('./fonts/aktifoa-bold.otf') format('woff');
+}
+@font-face {
+    font-family: 'AktifoBoldOblique';
+    src: local('AktifoBoldOblique'),
+         url('./fonts/aktifoa-boldoblique.otf') format('woff');
+}
+@font-face {
+    font-family: 'AktifoBook';
+    src: local('AktifoBook'),
+         url('./fonts/aktifoa-book.otf') format('woff');
+}
+@font-face {
+    font-family: 'AktifoBookOblique';
+    src: local('AktifoBookOblique'),
+         url('./fonts/aktifoa-bookoblique.otf') format('woff');
+}
+@font-face {
+    font-family: 'AktifoLight';
+    src: local('AktifoLight'),
+         url('./fonts/aktifoa-light.otf') format('woff');
+}
+@font-face {
+    font-family: 'AktifoLightOblique';
+    src: local('AktifoLightOblique'),
+         url('./fonts/aktifoa-lightoblique.otf') format('woff');
+}
+@font-face {
+    font-family: 'AktifoMedium';
+    src: local('AktifoMedium'),
+         url('./fonts/aktifoa-medium.otf') format('woff');
+}
+@font-face {
+    font-family: 'AktifoMediumOblique';
+    src: local('AktifoMediumOblique'),
+         url('./fonts/aktifoa-mediumoblique.otf') format('woff');
+}
+@font-face {
+    font-family: 'AktifoSemiBold';
+    src: local('AktifoSemiBold'),
+         url('./fonts/aktifoa-semibold.otf') format('woff');
+}
+@font-face {
+    font-family: 'AktifoSemiBoldOblique';
+    src: local('AktifoSemiBoldOblique'),
+         url('./fonts/aktifoa-semiboldoblique.otf') format('woff');
+}
