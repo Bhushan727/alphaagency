@@ -55,7 +55,7 @@ const Form = (props) => {
                 <div className="inputUnitTwo">
                     <label htmlFor="describe">How would you describe yourself?</label>
                     <select name="describe" id="describe" required>
-                        <option hidden></option>
+                        <option hidden>Select</option>
                         <option value="volvo">Volvo</option>
                         <option value="saab">Saab</option>
                         <option value="mercedes">Mercedes</option>
@@ -66,7 +66,7 @@ const Form = (props) => {
                 <div className="inputUnitTwo">
                     <label htmlFor="distributor">Preffered Distributor</label>
                     <select name="distributor" id="distributor" required>
-                        <option hidden></option>
+                        <option hidden>Select Option</option>
                         <option value="volvo">Volvo</option>
                         <option value="saab">Saab</option>
                         <option value="mercedes">Mercedes</option>
